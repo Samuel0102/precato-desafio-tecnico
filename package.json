@@ -1,0 +1,28 @@
+{
+  "name": "precato-desafio",
+  "version": "1.0.0",
+  "description": "Desafio técnico proposto pela empresa Precato como parte de seu processo seletivo para entrada na vaga de Estágio em Web Designer",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp default",
+    "prod": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Samuel0102/precato-desafio-tecnico.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Samuel0102/precato-desafio-tecnico/issues"
+  },
+  "homepage": "https://github.com/Samuel0102/precato-desafio-tecnico#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglifycss": "^1.1.0",
+    "node-sass": "^7.0.1"
+  }
+}
