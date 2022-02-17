@@ -1,0 +1,39 @@
+/* ----- variaveis ---- */
+$azul-primario: #164c81;
+$azul-secundario: #0d75db;
+
+/* ---- mixins ------ */
+@mixin button {
+  background-color: $azul-secundario;
+  padding: 8px 16px;
+  border-radius: 2px;
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+  border: none;
+}
+
+/* ----- medias ----- */
+@mixin sm {
+  @media (min-width: 576px) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin lg {
+  @media (min-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin xl {
+  @media (min-width: 1270px) {
+      @content;
+  }
+}

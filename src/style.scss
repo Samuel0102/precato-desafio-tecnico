@@ -1,0 +1,103 @@
+/* ----- IMPORTS & USES ------ */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap");
+@import "./base.scss";
+
+/* ------ RESETS & GLOBAL  -------- */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  padding: 32px;
+}
+
+/* ------- UTILITIES----- */
+.text-blue {
+  color: $azul-primario;
+}
+
+/* ------- HEADER -------- */
+header {
+  background-color: $azul-primario;
+  width: 100%;
+  padding: 16px 0;
+
+  img {
+    width: 104px;
+    padding-left: 32px;
+  }
+}
+
+/* ----- GET STARTED ------ */
+#get-started {
+  text-align: center;
+
+  img {
+    width: 100%;
+    padding: 32px 0;
+    margin: 0 auto;
+  }
+
+  #intro {
+    font-weight: 500;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    font-size: 24px;
+
+    span {
+      font-weight: 800;
+    }
+  }
+
+  button {
+    @include button;
+  }
+}
+
+/* ------ ABOUT ----- */
+#about {
+  text-align: center;
+  padding-top: 24px;
+
+  p {
+    font-size: 20px;
+
+    &:nth-child(2) {
+      padding: 24px 0;
+    }
+  }
+}
+
+/* ------ HOW IT WORKS ---- */
+#how-it-works {
+  text-align: center;
+  article {
+    text-align: left;
+    margin: 32px 0;
+  }
+
+  h1 {
+    font-weight: 800;
+    font-size: 32px;
+  }
+
+  h2 {
+    color: $azul-primario;
+    font-weight: 600;
+    margin: 8px 0;
+  }
+
+  p {
+    font-weight: 400;
+  }
+
+  button {
+    @include button;
+  }
+}
