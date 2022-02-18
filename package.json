@@ -21,13 +21,11 @@
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-htmlmin": "^5.0.1",
-    "gulp-imagemin": "^8.0.0",
+    "gulp-imagemin": "^7.1.0",
     "gulp-sass": "^5.1.0",
     "gulp-terser": "^2.1.0",
     "gulp-uglifycss": "^1.1.0",
+    "gulp-webp": "^4.0.1",
     "node-sass": "^7.0.1"
-  },
-  "dependencies": {
-    "scrollreveal": "^4.0.9"
   }
 }

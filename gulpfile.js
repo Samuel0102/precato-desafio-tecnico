@@ -4,6 +4,7 @@ const uglifyCss = require('gulp-uglifycss');
 const minifyHtml = require('gulp-htmlmin');
 const uglifyJs = require('gulp-terser');
 const minifyImage = require('gulp-imagemin');
+const webp = require('gulp-webp');
 
 function sass(){
     return src(['./src/style.scss'])
@@ -24,10 +25,11 @@ function js(){
     .pipe(dest('./dist'))
 }
 
-function imgMinify() {
-    return gulp.src("src/img/**/*")
-    .pipe(img())
-    .pipe(gulp.dest("dist/images"));
+function img() {
+    return src("src/img/**/*")
+    .pipe(webp())
+    .pipe(minifyImage())
+    .pipe(dest("dist/img"));
   }
 
 exports.build = series(sass, html, js, img)
