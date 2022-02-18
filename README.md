@@ -1,5 +1,6 @@
 # :money_with_wings: Desafio técnico - Precato :money_with_wings:
-Desafio técnico especificado no processo seletivo para vaga de Estágio em Web Designer na empresa Precato
+Desafio técnico especificado no processo seletivo para vaga de Estágio em Web Designer na empresa Precato  
+:link: https://nifty-goldstine-084329.netlify.app/
 
 # Sobre o projeto
 
